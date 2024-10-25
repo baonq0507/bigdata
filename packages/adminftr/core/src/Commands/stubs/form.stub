@@ -1,0 +1,15 @@
+<?php
+namespace App\Future\{{ name }}Resource;
+
+use Adminftr\Form\Future\BaseForm;
+use App\Models\{{ model }};
+
+class Form extends BaseForm
+{
+     public $model = '{{ model }}';
+
+public function form(\Adminftr\Form\Future\Components\Form $form)
+    {
+        // TODO: Implement form() method.
+    }
+}

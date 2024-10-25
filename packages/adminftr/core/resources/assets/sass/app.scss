@@ -1,0 +1,57 @@
+@import 'node_modules/@tabler/core/src/scss/_config.scss';
+@import 'menu.scss';
+@import 'table.scss';
+@import 'form.scss';
+@import 'messages.scss';
+
+.role-avatar {
+    li {
+        margin-left: -0.75rem;
+        transition: transform 0.25s ease;
+
+        img {
+            display: block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #fff;
+            border: 2px solid #fff;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        &:hover {
+            transform: translateY(-4px) scale(1.02);
+        }
+    }
+}
+
+.alert-container {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    max-width: 100%; // Đảm bảo rằng nội dung không vượt qua màn hình
+    z-index: 99999;
+}
+
+.alert {
+    width: 100%; // Chiều rộng của thông báo căn theo chiều rộng của container
+}
+
+.fade-out {
+    transition: opacity 1s;
+    opacity: 0 !important;
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+.card-hover:hover {
+    transform: translateY(-5px); /* Moves the card up by 5px when hovered */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25); /* Adds shadow to make the card look elevated */
+}

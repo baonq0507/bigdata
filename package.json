@@ -1,0 +1,33 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "alpinejs-sort": "^1.0.1",
+        "axios": "^1.1.2",
+        "chokidar": "^3.6.0",
+        "laravel-vite-plugin": "^0.8.0",
+        "sass": "^1.77.2",
+        "vite": "^4.5.3"
+    },
+    "dependencies": {
+        "@alpinejs/intersect": "^3.13.3",
+        "@alpinejs/mask": "^3.13.8",
+        "@alpinejs/sort": "^3.14.1",
+        "@dasundev/livewire-dropzone-styles": "^1.0.8",
+        "@popperjs/core": "^2.11.8",
+        "@tabler/core": "^1.0.0-beta20",
+        "alpinejs": "^3.13.2",
+        "bootstrap": "^5.3.3",
+        "clipboard": "^2.0.11",
+        "js-cookie": "^3.0.5",
+        "laravel-echo": "^1.16.1",
+        "pusher-js": "^8.4.0-rc2",
+        "sweetalert": "^2.1.2",
+        "sweetalert2": "^11.12.0",
+        "wire-validation": "^1.0.2"
+    }
+}

@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Future;
+use App\Future\{{name}}Resource\Form;
+use App\Future\{{name}}Resource\Table;
+use Adminftr\Core\Http\Resource\BaseResource;
+
+class {{name}}Resource extends BaseResource
+{
+      public function __construct()
+        {
+            parent::__construct(
+                new Table(),
+                new Form()
+            );
+        }
+}

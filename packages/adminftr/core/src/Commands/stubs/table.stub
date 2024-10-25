@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Future\{{ name }}Resource;
+use App\Models\{{ model }};
+use Adminftr\Table\Future\BaseTable;
+use Adminftr\Table\Future\Components\Columns\TextColumn;
+
+class Table extends BaseTable {
+    protected string $model = {{ model }}::class;
+
+    protected function columns(): array
+    {
+        return [
+            {{ columns }}
+        ];
+    }
+
+     protected function actions(\Adminftr\Table\Future\Components\Actions\Actions $actions)
+        {
+
+        }
+
+     protected function filters(): array
+        {
+           return [];
+        }
+}
